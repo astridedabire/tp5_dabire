@@ -76,13 +76,14 @@
       </div>
       
         
-    </section>
+    </section><br>
+    <h1 class="zo">Découvrez les différentes espèces protégées</h1>
     <section class="cv">
             <div class="cvtext">
               <br>
              
              <!-- <p> <i class="fas fa-circle"></i> <strong class="civil"> Etat CIVIL</strong></p> -->
-<h2 class="zoo">les zèbres à rayure large</h2>    <br>         
+<h2 class="zo0">les zèbres à rayure large</h2>    <br>         
 
 <p> <strong>le zèbre à rayure noir Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas blanditiis aut quod voluptate quis cumque  corporis minima, earum ipsam harum?</strong></p>
 <p></p>
@@ -99,7 +100,7 @@
             </div>
           </section><br><br>
           <section>
-            <h2 class="zo" > Différents espèces se partagent la savane</h2><br>
+            <h2 class="zo"> Différents espèces se partagent la savane</h2><br>
             <div class="étudiant">
                 <div>
                 <img src="African.jpg" alt="">

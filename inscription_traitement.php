@@ -26,14 +26,15 @@ if(isset($_POST['pseudo']) && isset($_POST['email']) && isset($_POST['password']
                   {
                 $password = hash('sha256', $password);
                 $ip = $_SERVER['REMOTE_ADDR'];
-                $insert = $bdd->prepare('INSERT INTO utilisateurs (pseudo, email, password, ip) VALUES(:pseudo, :email, :password, :ip)');
+                $insert = $bdd->prepare('INSERT INTO utilisateurs (pseudo, email, password, ip, role) VALUES(:pseudo, :email, :password, :ip, :role)');
                 $insert->execute(array(
                 'pseudo' => $pseudo,
                 'email' => $email,
                 'password' => $password,
-                   'ip' => $ip
+                   'ip' => $ip,
+                   'role' => 'utilisateurs'
                       ));
-                   header('Location:connexion.php');
+                   header('Location:index.php');
                     }else header('Location:inscription.php?reg_err=password');
                 }else header('Location:inscription.php?reg_err=email');
             }else header('Location:inscription.php?reg_err=email_length');

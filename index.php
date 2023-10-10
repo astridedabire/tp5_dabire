@@ -56,7 +56,7 @@ include("config.php");
       <input type="password" name="password"class="form-control"placeholder="Mot de passe" required="required"autocomplete="off">
     </div>
     <div class="form-group">
-<button type="submit" class="btn btn-primary btn-block">Connexion</button>
+<button type="submit" class="btn btn-primary btn-block" name="submit">Connexion</button>
     </div>
   </form>
 <p class="text-center"><a href="inscription.php">Inscription</a></p>
